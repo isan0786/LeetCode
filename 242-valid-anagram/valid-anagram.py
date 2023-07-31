@@ -14,3 +14,6 @@ class Solution:
                 return False
 
         return True
+
+# The space complexity is O(n) because the dictionary requires space of n elements in the memory
+# the time complexity is O(n) because the dictionary has n elements in it, and the search from each element is O(1)
