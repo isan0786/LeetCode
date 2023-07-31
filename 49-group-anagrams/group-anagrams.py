@@ -11,3 +11,11 @@ class Solution:
             res[tuple(count)].append(s)
 
         return res.values()
+
+# code time complexity is O(m*n*26) = O(m*n)
+# space complexity -> O(n)
+'''
+res: This is a dictionary (defaultdict) that stores the anagrams grouped by their character counts. The space required for this dictionary depends on the number of unique character count patterns found in the input list strs. In the worst case, each string in strs is an anagram of a different pattern, leading to all n strings being stored separately. In this case, the space complexity of res would be O(n).
+
+count: This is a list of 26 integers used to count the occurrences of each character in a string. It is created and updated for each string in strs. Since the size of count is fixed (26 elements) and independent of the input size, its space complexity is constant, O(1).
+'''
