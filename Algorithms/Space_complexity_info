@@ -1,0 +1,26 @@
+Space Complexity Calculation
+
+-----------------code 1
+lister = []
+for i in nums:
+	print(i)
+-----------------code 2
+lister = {}
+for i in nums:
+	print(i)
+    
+    
+The code 1 and 2 have a space complexity of O(1) because we are not storing anything in the memory
+
+
+-----------------code 3
+lister = []
+for i in nums:
+	print(lister.append(i))
+-----------------code 4
+lister = {}
+for i in nums:
+	print(lister.append(i))
+    
+    
+The code 3 and 4 have a space complexity of O(n) because we are storing items in the memory one by one.
