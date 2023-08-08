@@ -17,3 +17,5 @@ class Solution:
                 rows[r].add(board[r][c])
                 squares[(r//3,c//3)].add(board[r][c])
         return True
+        # Space Complexity -> O(n) or O(9^2) because these are the number of positions that needs to be stored in RAM
+        # Time Complexity -> O(n^2) or O(9^2)
