@@ -62,7 +62,7 @@ Welcome to my GitHub repository dedicated to solving LeetCode questions on SQL a
 
 ## How to Use
 - Each topic directory contains solutions to corresponding problems.
-- Solutions are provided in various programming languages such as SQL, Python, Java, etc., depending on the problem requirements.
+- Solutions are provided in programming languages in SQL or Python, depending on the problem requirements.
 - Simply navigate through the directories to find the problem you're interested in and its respective solution.
 
 ## Contribution
